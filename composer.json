@@ -1,0 +1,35 @@
+{
+  "name": "chaos/container",
+  "description": "PSR to interop container decorator",
+  "keywords": [
+    "vietnam",
+    "psr",
+    "interop",
+    "decorator"
+  ],
+  "homepage": "https://github.com/ntd1712",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "ntd1712",
+      "email": "ntd1712@mail.com"
+    }
+  ],
+  "require": {},
+  "require-dev": {
+    "container-interop/container-interop": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Chaos\\Support\\Container\\": "src/"
+    },
+    "files": [
+      "autoload/helpers.php"
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  }
+}
